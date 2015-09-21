@@ -1,5 +1,8 @@
 #include <LCD_nokia8310.h>
-
+/*	3 - XRES_pin
+	4 - XCS_pin
+	5 - SDA_pin
+	6 - SCLK_pin */
 NokiaLCD lcd(3,4,5,6); //84 x 48
 
 void setup() {
